@@ -1,0 +1,19 @@
+body
+{
+	background-color: black;
+	color: white;
+	font-family: Helvetica, sans-serif;
+	font-size: 18px;
+	
+	text-align: center;
+}
+
+div.centre
+{
+	text-align: left;
+	
+	margin: 0px auto;
+	max-width: 500px;
+	
+	overflow: hidden;
+}
