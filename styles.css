@@ -1,7 +1,7 @@
 body
 {
-	background-color: rgb(50,50,50);
-	color: white;
+	background-color: #191919;
+	color: #000000;
 	font-family: Helvetica, sans-serif;
 	font-size: 18px;
 	
@@ -10,10 +10,9 @@ body
 
 div.centre
 {
-	border: solid 5px white;
-
 	text-align: left;
 	
+	border: solid 5px #000000;
 	margin: 0px auto;
 	max-width: 500px;
 	
