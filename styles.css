@@ -6,10 +6,10 @@ body {
 }
 
 .centre {
-	border: solid 5px #FFFFFF;
-	padding: 1%;
-	margin: auto;
 	max-width: 500px;
+	border: solid 5px #FFFFFF;
+	padding: 2%;
+	margin: auto;
 	
 	overflow: hidden;
 	box-sizing: border-box;
@@ -31,6 +31,7 @@ li:first-child {
 	margin-left: -1.2em;
 	
 	list-style-type: none;
+	font-family: Courier, monospace;
 	font-size: 1.2em;
 	font-weight: bold;
 }
