@@ -1,21 +1,36 @@
-body
-{
+body {
 	background-color: #191919;
 	color: #FFFFFF;
 	font-family: Helvetica, sans-serif;
-	font-size: 18px;
-	
-	text-align: center;
+	font-size: 100%;
 }
 
-div.centre
-{
-	text-align: left;
-	
+.centre {
 	border: solid 5px #FFFFFF;
-	padding: 5px;
-	margin: 0px auto;
+	padding: 1%;
+	margin: auto;
 	max-width: 500px;
 	
 	overflow: hidden;
+	box-sizing: border-box;
+}
+
+
+header {
+	font-size: 2em;
+	font-weight: bold;
+	
+	margin: 4% 0em 5%;
+}
+
+ul {
+	padding-left: 1.2em;
+}
+
+li:first-child {
+	margin-left: -1.2em;
+	
+	list-style-type: none;
+	font-size: 1.2em;
+	font-weight: bold;
 }
