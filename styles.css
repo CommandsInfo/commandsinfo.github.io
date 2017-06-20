@@ -6,8 +6,6 @@ body {
 }
 
 .centre {
-	max-width: 500px;
-	border: solid 5px #FFFFFF;
 	padding: 2%;
 	margin: auto;
 	
@@ -34,4 +32,15 @@ li:first-child {
 	font-family: Courier, monospace;
 	font-size: 1.2em;
 	font-weight: bold;
+}
+
+
+
+@media screen and (min-width: 520px) {
+	.centre {
+		max-width: 500px;
+		padding: 1%;
+		
+		border: solid 5px #FFFFFF;
+	}
 }
