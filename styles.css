@@ -36,7 +36,7 @@ li:first-child {
 
 
 
-@media screen and (min-width: 520px) {
+@media screen and (min-device-width: 520px) {
 	.centre {
 		max-width: 500px;
 		padding: 1%;
